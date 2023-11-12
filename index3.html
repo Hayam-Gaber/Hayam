@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+ 
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Currency Exchange App in JavaScript</title>
+    <link rel="stylesheet" href="style3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+          <a href="#"> CE</a>
+         
+      </div>
+       
+      <ul>
+          <li><a onclick="location.href='index2.html'">EUR-USD Details</a></li>
+          <li><a onclick="location.href='index3.html'">EUR-GBP Details</a></li>
+          </ul> 
+      
+        </ul>
+       
+    </header>
+
+    <h2> EUR-GBP </h2>
+
+
+    <div class="wrapper">
+       
+      <form action="#">
+        <div class="amount">
+          <p>Enter Amount</p>
+          <input type="text" value="1">
+        </div>
+        <div class="drop-list">
+          <div class="from">
+            <p>From</p>
+            <div class="select-box">
+              <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+              <select> <!-- Options tag are inserted from JavaScript --> </select>
+            </div>
+          </div>
+          <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+          <div class="to">
+            <p>To</p>
+            <div class="select-box">
+              <img src="https://flagcdn.com/48x36/af.png" alt="flag">
+              <select> <!-- Options tag are inserted from JavaScript --> </select>
+            </div>
+          </div>
+        </div>
+        <div class="exchange-rate">Getting exchange rate...</div>
+        <button>Get Exchange Rate</button>
+      </form>
+    </div>
+
+    <div class="container">
+       
+         <diV class=" HHH HHH1">Historical Rates Chart</diV>
+          
+
+  </div>
+
+    <script src="js/country-list.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
